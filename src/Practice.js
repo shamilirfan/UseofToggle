@@ -2,21 +2,21 @@ import { useState } from "react";
 
 function Practice() {
     const [colorIndex, setColorIndex] = useState(0);
-    let Color;
+    let color;
     if (colorIndex === 0) {
-        Color = "bg-gradient-to-r from-cyan-500 to-blue-500";
+        color = "bg-gradient-to-r from-cyan-500 to-blue-500";
     }
     else if (colorIndex === 1) {
-        Color = "bg-gradient-to-r from-sky-500 to-indigo-500";
+        color = "bg-gradient-to-r from-sky-500 to-indigo-500";
     }
     else if (colorIndex === 2) {
-        Color = "bg-gradient-to-r from-violet-500 to-fuchsia-500";
+        color = "bg-gradient-to-r from-violet-500 to-fuchsia-500";
     }
     else {
-        Color = "bg-gradient-to-r from-purple-500 to-pink-500";
+        color = "bg-gradient-to-r from-purple-500 to-pink-500";
     }
 
-    const t = `flex w-screen h-screen justify-center ${Color}`;
+    const t = `flex w-screen h-screen justify-center ${color}`;
 
     return (
         <div className={t}>

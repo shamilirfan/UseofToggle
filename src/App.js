@@ -7,6 +7,7 @@ import Queue from './Queue';
 import Links from './Links';
 import ColorChanging from './ColorChanging';
 import Practice from './Practice';
+import ImageChange from './ImageChange';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                 <Route path="queue" element={<Queue />} />
                 <Route path="colorchanging" element={<ColorChanging />} />
                 <Route path="practice" element={<Practice />} />
+                <Route path="imagechange" element={<ImageChange />} />
             </Routes>
         </div>
     );
