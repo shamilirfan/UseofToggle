@@ -8,7 +8,7 @@ import Links from './Links';
 import ColorChanging from './ColorChanging';
 import Practice from './Practice';
 import ImageChange from './ImageChange';
-
+import UseEffect from './UseEffect';
 
 function App() {
     return (
@@ -20,9 +20,9 @@ function App() {
                 <Route path="colorchanging" element={<ColorChanging />} />
                 <Route path="practice" element={<Practice />} />
                 <Route path="imagechange" element={<ImageChange />} />
+                <Route path="useEffect" element={<UseEffect />} />
             </Routes>
         </div>
     );
 }
-
 export default App;

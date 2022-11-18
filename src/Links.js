@@ -10,10 +10,10 @@ function Links() {
                 <Link to="/colorchanging" className="border p-5 m-5 text-3xl hover:text-blue-600 text-white">Color Changing</Link>
                 <Link to="/practice" className="border p-5 m-5 text-3xl hover:text-blue-600 text-white">Practice</Link>
                 <Link to="/imagechange" className="border p-5 m-5 text-3xl hover:text-blue-600 text-white">Image Change</Link>
+                <Link to="/useEffect" className="border p-5 m-5 text-3xl hover:text-blue-600 text-white">UseEffect</Link>
             </div>
             <div className="w-[25%] h-full"></div>
         </div>
     );
 }
-
 export default Links;
